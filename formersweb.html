@@ -1,0 +1,529 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Welcome to Agriculture</title>
+    <!-- Font Awesome -->
+<link
+href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.1/css/all.min.css"
+rel="stylesheet"
+/>
+<!-- Google Fonts -->
+<link
+href="https://fonts.googleapis.com/css?family=Roboto:300,400,500,700&display=swap"
+rel="stylesheet"
+/>
+<!-- MDB -->
+<link
+href="https://cdnjs.cloudflare.com/ajax/libs/mdb-ui-kit/3.3.0/mdb.min.css"
+rel="stylesheet"
+/>
+<style>
+     nav a:hover {
+            background:linear-gradient(45deg,purple,orange);
+            color: black;
+            border-radius: 10px;
+            text-decoration: none;
+        }
+        #text{
+          color: white;
+          text-shadow: 1px 1px 2px black, 0 0 25px blue, 0 0 5px darkblue;
+           }
+           #bl {
+             text-shadow: 2px 2px red;
+              }
+
+         
+
+</style>
+</head>
+<body>
+
+
+  
+
+
+
+
+
+
+
+
+  
+    <nav class="navbar navbar-expand-lg navbar-light bg-warning">
+        <div class="container-fluid">
+            <h1 class="diplay-4"><i class="fas fa-leaf"></i></h1>
+          <a class="navbar-brand" href="#">Farming</a>
+          <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#fazul" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"><i class="fas fa-bars"></i></span>
+          </button>
+          <div class="collapse navbar-collapse" id="fazul">
+            <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+              <li class="nav-item">
+                <a class="nav-link active" aria-current="page" href="#">Home</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">Crops</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link active" aria-current="page" href="#">Fertilizers</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link active" aria-current="page" href="#">Organic Farming</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">Services</a>
+              </li>
+              <li class="nav-item dropdown">
+                <a class="nav-link" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                  Ideas<i class="fas fa-caret-down"></i>
+                </a>
+                <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                  <a class="dropdown-item" href="#">1. Agricultural Farm Business</a>
+                  <a class="dropdown-item" href="#">2. Organic Fertilizer </a>
+                  <a class="dropdown-item" href="#">3. Flower Business</a>
+                  <a class="dropdown-item" href="#">4. Fertilizer Distribution</a>
+                  <a class="dropdown-item" href="#">5. Poultry Farming</a>
+                  <a class="dropdown-item" href="#">6. Mushroom Farming</a>
+                  <a class="dropdown-item" href="#">7. Sunflower Farming</a>
+                  <a class="dropdown-item" href="#">8. Organic Farming                  </a>
+                  <a class="dropdown-item" href="#">9. Dairy Farming </a>
+                  <a class="dropdown-item" href="#">10. Hydroponic Retail Store Business</a>
+                </div>
+              </li>
+              
+            </ul>
+            <form class="d-flex">
+              <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+              <button class="btn btn-outline-success" type="submit">Search</button>
+            </form>
+          </div>
+        </div>
+      </nav>
+   
+
+
+        
+     
+
+
+
+
+      
+      
+
+
+
+
+
+
+     
+  <div class="jumbotron text-center text-primary p-5"  id="img" style="background-image: url('https://previews.123rf.com/images/muralinathypr/muralinathypr1612/muralinathypr161200034/78003390-indian-farmer.jpg'); width: 100%; height: 700px; background-repeat: no-repeat; background-size: cover;" >
+    <p id="para" style="font-size: 20px; color: black;" >People probably started agriculture slowly by planting a few crops, but still gathered many foods from the wild. People may have started farming because the weather and soil began to change. Farming can feed many more people than hunter-gatherers.
+      Since Global Warming is hampering our planet in every way, it affects our farmers too. Because of global warming.This is one of the main reasons why farms are getting destroyed. As a result, farmers commit suicide.
+    </p>
+    <a id="read" class="btn btn-primary btn-lg" href="#" role="button" onclick="changed();">Read more</a>
+  </div>
+  
+
+
+
+
+
+
+
+
+
+  <div class="container-fluid bg-dark mt-3">
+    <div>
+        <div class="row">
+            <div class="col-md-6 p-5 text-white">
+                <h1>Free to start,with 4 ways to grow.</h1>
+                <p>Technological innovations have greatly shaped agriculture throughout time. From the creation of the plow to the global positioning system (GPS) driven precision farming equipment, humans have developed new ways to make farming more efficient and grow more food.</p>
+            </div>
+            <div class="col-md-6 p-5">
+                <div class="card">
+                    <div class="card-body bg-dark text-white">
+                        <h3 class="card-title">Agriculture</h3>
+                        <h5 class="card-sub-title">Agriculture was the key development in the rise of sedentary human civilization.</h5>
+                        <button class="btn btn-secondary">Start with free</button>
+                        <p class="card-text">A fall line is the imaginary line between two parallel rivers,Use these classroom resources without Crops there will be no food without there will be no living beings</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-xl-3 col-md-6 p-5">
+                <div class="card">
+                    <div class="card-body bg-warning text-dark">
+                        <h3  id="text" class="card-title">RESOURCES</h3>
+                        <h6 class="card-sub-title">Development of crops</h6>
+                        <h3 class="display-4"><i class="fas fa-carrot"></i></h3>
+                        <h6 class="card-sub-title">Resources to Develop Crops</h6>
+                        <button class="btn btn-outline-dark">Make Green India</button>
+                        <p class="card-text"> farming and rearing of animals can be innovations shaped agriculture throughout time.</p>
+                    </div>
+                </div>
+            </div>
+            <div class="col-xl-3 col-md-6 p-5">
+                <div class="card">
+                    <div class="card-body bg-danger text-dark">
+                        <h3  id="text" class="card-title">TECHNOLOGY</h3>
+                        <h6 class="card-sub-title">Agriculture using Technology</h6>
+                        <h3 class="display-5"><i class="fas fa-pizza-slice"></i></h3>
+                        <h6 class="card-sub-title">Impact of Technology</h6>
+                        <button class="btn btn-outline-dark">Make Green India</button>
+                        <p class="card-text">Build a unique site with advanced design tools, custom CSS, and Google Analytics support.</p>
+                    </div>
+                </div>
+            </div>
+            <div class="col-xl-3 p-5 col-md-6">
+                <div class="card">
+                    <div class="card-body bg-info text-dark">
+                        <h3  id="text" class="card-title">FRESH WATER</h3>
+                        <h6 class="card-sub-title">Watering to the plants/monthly</h6>
+                        <h3 class="display-4"><i class="fas fa-water"></i></h3>
+                        <h6 class="card-sub-title">Fresh water Econamy</h6>
+                        <button class="btn btn-outline-dark">Make Green India</button>
+                        <p class="card-text">Watering to the plants to the crops by the repeating in the month atleast four times.</p>
+                    </div>
+                </div>
+            </div>
+            <div class="col-xl-3 col-md-6  p-5">
+                <div class="card">
+                    <div class="card-body bg-light text-dark">
+                        <h3  id="text" class="card-title">FOOD SAFETY</h3>
+                        <h6 class="card-sub-title">Crops grown by the nature incidence</h6>
+                        <h3 class="display-4"><i class="fas fa-hamburger"></i></h3>
+                        <h6 class="card-sub-title">Food Poisoning Precautions</h6>
+                        <button class="btn btn-outline-dark">Make Green India</button>
+                        <p class="card-text">Food safety & Food security is need & how much money they make.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+
+        <nav class="navbar navbar-expand-lg navbar-light">
+          <form class="form-inline my-2 my-lg-0" style="width: 200px; margin: auto;">
+            <button class="btn btn-outline-success my-2 my-sm-0"  data-toggle="modal" data-target="#login" >login</button>
+            <button class="btn btn-outline-success my-2 my-sm-0" data-toggle="modal" data-target="#signin" >Signin</button>
+          </form>
+          <div id="login" class="modal fade" tabindex="-1" role="dialog" aria-hidden="true">
+            <div class="modal-dialog" role="document">
+                <div class="modal-content text-white bg-dark">
+                    <div class="modal-header">
+                        <h2>Sign In</h2>
+                        <button class="btn btn-outline-white" data-dismiss="modal">X</button>
+                    </div>
+                    <div class="modal-body">
+                        <div class="form-group">
+                            <input type="email" class="form-control" placeholder="Email"><br>
+                        </div>
+                        <div class="form-group">
+                            <input type="password" class="form-control" placeholder="password"><br>
+                        </div>
+                        <button class="btn btn-outline-white">Submit</button>
+                    </div>
+                    <div class="modal-footer">
+                        <button class="btn btn-outline-white" data-dismiss="modal">Close</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div id="signin" class="modal fade" tabindex="-1" role="dialog" aria-hidden="true">
+            <div class="modal-dialog" role="document">
+                <div class="modal-content text-white bg-dark">
+                    <div class="modal-header">
+                        <h2>Sign In</h2>
+                        <button class="btn btn-outline-white" data-dismiss="modal">X</button>
+                    </div>
+                    <div class="modal-body">
+                        <div class="form-group">
+                            <input type="text" class="form-control" placeholder="First Name"><br>
+                        </div>
+                        <div class="form-group">
+                            <input type="text" class="form-control" placeholder="Last Name"><br>
+                        </div>
+                        <div class="form-group">
+                            <input type="email" class="form-control" placeholder="Email"><br>
+                        </div>
+                        <div class="form-group">
+                            <input type="password" class="form-control" placeholder="password"><br>
+                        </div>
+                        <button class="btn btn-outline-white">Submit</button>
+                    </div>
+                    <div class="modal-footer">
+                        <button class="btn btn-outline-white" data-dismiss="modal">Close</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+  </nav>
+
+
+    </div>
+</div>
+  
+
+
+
+<div class="text-center p-5">
+    <h1 class="diplay-4"><i class="fas fa-leaf"></i></h1>
+    <h1>Agriculture is a Field of Unlimited Posibilities.</h1>
+        <p>The agriculture sector’s contribution to the Gross Domestic Product (GDP) decreased from 54% in 1950-51 to 15.4% in 2015-16, while that of the services sector increased from 30% to 53%.</p>
+            <button class="btn btn-outline-danger">Create The World</button>
+</div>
+
+
+
+
+<div class="bg-dark py-5">
+  
+  <marquee behavior="scroll" direction="left" scrollamount="10" style="color: yellow">If You Ate Today Thank A FARMER.</marquee>
+  <h2 id="bl" class="text-center">People Love Agriculture  <i class="fas fa-leaf"></i> </h2>
+  
+    <div class="d-flex p-5 row m-0" id="box3">
+            <div class="col-xl-3 col-md-6 d-flex justify-content-center align-content-center">
+              <p class="text-white">Someday we shall look back on this dark era of agriculture and shake our heads. How could we have ever believed that it was a good idea to grow our food with poisons? For the sake of humanity it is devoutly to be wished that the manly employment of agriculture </p>
+            </div>
+            <div class="col-xl-3 col-md-6 d-flex justify-content-center" style="height: 300px;">
+              <img  src="https://lh3.googleusercontent.com/d2tER2ZUBsvwjXZwApOgfuISIJTggEhzIbqBT6bpA_oYVsvgPHQfVx0vEoSxq9Bp925a2ocnNf3S2crp-XL_cuOijyzVARgG_Ek0n4FChQjwa-glWoaaqeOQa3adbg09-p6H2hkNBCSf0IIwl1du92JwOA0QcHf6mQUE778diOac4v7uClaFdIaOs1hvti2sINgKYO41N09TYkxIX3UDBidk1jkg-v0zmruH8pYKzylQZJe1uFZyCGLuGy-VTkRXqXaibUyTOTjiNOoj698HCJz6liDy9oputtF8PpuvtTZ5Oi7xzXyB-s3XjtuhYqh4JryL76FTP_XS2aHa9irduzMmSvLH3-zhIbyKueJ-X4cQyZu11qYGEC201YcqJS1vG6NqoObwSHLl9rwHETf8lLpGQ3IbCWrrk8HVf8wb_ecLCvzTyXtEymuSvizuB2bmROBu2Xe49Ag68bCCu5WBFM3T7qrz1Ba6Ofbd9mjwWKbz8kHkiuXR6N8jDb0q0v8P3iErTiN-aJLkU_1HFzrxc_AgUVf3evyTZzwk_a0xlhes3OEdn3MvjrVICLS5MxwzRsmBDNtxQGdd18nMl2X1k109Db8XCcjUM9OsFN7uk8ON0cDzVwddYT_SyxOv0t4Xjn1hawpMVVLC0bo3L2I_HRrrTDFM1O6jDwRx0a1wvEh7o1jBYmgEyonDCEEBJ5N9IdjrgVaZngEvwv0buMfOmSiCpw=w940-h990-no?authuser=0" width="250px" height="250px" style="border-radius: 50%">
+            </div>
+              
+            
+            <div class="col-xl-3 col-md-6 d-flex justify-content-center align-content-center">
+              <p class="text-white">The ultimate goal of farming is not the growing of crops, but the cultivation and perfection of human beings.Farming looks mighty easy when your plow is a pencil, and you're a thousand miles from the corn field.  the swords might be turned into ploughshares, the spears </p>
+            </div>
+              <div  class="col-xl-3 col-md-6 d-flex justify-content-center" style="height: 300px;">
+                <img src="https://lh3.googleusercontent.com/x-8O3l5iAzRkKX8HMq3wUTp4pusYv-moFwEALx12MuFqhoI4JCKuBwNnkvP8UrK8JT9f60jSirTuU6gVkqyOS_hzpdSs2dwmkvaHx2oJRH_BgSwAUpeW38nWfOHLWvzOX-aayceS2fbMVUD5j9GiWx5LFmrSw06I6oms2KyDpjG8B_jmzCZwLfj2s_t__IEP2WO57Mrav8Lns0A6aiJjDOkD8EXA9pNVEsuou-wC_YgCjMa64PJv_bAfTvjhW5fwMJRuLb6U3auULCpykLnvLKbE1DPDTG6cj_ZA_tnFwWTRlvEVRwHnimI-4M8vISeol4b2ZafiG99N5trO0EQtuXJeIhHxyuibyAhgMkiZyWqOIcnrcSjM5196QlA5oG01RMD6ln3A2d74K134YK-xTH2rNfb_MLuG7CYEnh0kvLuzmfxNoihhGtJTnm3Fe9VRC9G88zIeEVOo3sjuCiIkG9p6oWV0p2DLIlhkwjg086vdGKN3oWvw59dRnaaWuXQq27NR6-aE6gmAIymxyCH_XqbaQeVQ7z9HQEu_9DL-55vglHGo5cnhC6loxHQhWWHYZqjCl_M3j3AhbLy33lspdA0GREKnxQMIQhZjCeL_A2bBwID9TDolrCBZdciyRiQT9aML_l-3muTkWs2zTPRoykV6bFV3o1TCXJr-glFRHeKnrl-bCZXhRbMxv7l00PnT7GF_pM84FCsEwmElyDh6tiuUyg=w982-h990-no?authuser=0" width="250px" height="250px" style="border-radius: 50%">
+              </div>
+        </div>
+    </div>
+  
+</div>
+
+
+<div class="d-flex justify-content-evenly m-0 mt-3 row text-center">
+    <h2 class="col-sm-12 col-lg-4">Crop insurance</h2>
+    <h2 class="col-sm-12 col-lg-4">24/7 Agriculture Assistance</h2>
+    <h2 class="col-sm-12 col-lg-4">Crop Maintanance</h2>
+</div>
+
+
+
+
+
+
+
+
+
+
+
+  <footer class="bg-dark text-center text-white mt-3" style="border-radius: 15px 15px 0 0;">
+    <!-- Grid container -->
+    <div class="container p-4">
+      <!-- Section: Social media -->
+      <section class="mb-4">
+        <!-- Facebook -->
+        <a class="btn btn-outline-light btn-floating m-1" href="#!" role="button"
+          ><i class="fab fa-facebook-f"></i
+        ></a>
+  
+        <!-- Twitter -->
+        <a class="btn btn-outline-light btn-floating m-1" href="#!" role="button"
+          ><i class="fab fa-twitter"></i
+        ></a>
+  
+        <!-- Google -->
+        <a class="btn btn-outline-light btn-floating m-1" href="#!" role="button"
+          ><i class="fab fa-google"></i
+        ></a>
+  
+        <!-- Instagram -->
+        <a class="btn btn-outline-light btn-floating m-1" href="#!" role="button"
+          ><i class="fab fa-instagram"></i
+        ></a>
+  
+        <!-- Linkedin -->
+        <a class="btn btn-outline-light btn-floating m-1" href="#!" role="button"
+          ><i class="fab fa-linkedin-in"></i
+        ></a>
+  
+        <!-- Github -->
+        <a class="btn btn-outline-light btn-floating m-1" href="#!" role="button"
+          ><i class="fab fa-github"></i
+        ></a>
+      </section>
+      <!-- Section: Social media -->
+  
+      <!-- Section: Form -->
+      <section class="">
+        <form action="">
+          <!--Grid row-->
+          <div class="row d-flex justify-content-center">
+            <!--Grid column-->
+            <div class="col-auto">
+              <p class="pt-2">
+                <strong>Sign up for Forming Ideas</strong>
+              </p>
+            </div>
+            <!--Grid column-->
+  
+            <!--Grid column-->
+            <div class="col-md-5 col-12">
+              <!-- Email input -->
+              <div class="form-outline form-white mb-4">
+                <input type="email" id="form5Example2" class="form-control" style="background: white; color: green;">
+                <label class="form-label; col-10;" for="form5Example2" aria-placeholder="Email" >Email address</label>
+              </div>
+            </div>
+            <!--Grid column-->
+  
+            <!--Grid column-->
+            <div class="col-auto">
+              <!-- Submit button -->
+              <button type="submit" class="btn btn-outline-light mb-4">
+                Subscribe
+              </button>
+            </div>
+            <!--Grid column-->
+          </div>
+          <!--Grid row-->
+        </form>
+      </section>
+      <!-- Section: Form -->
+  
+      <!-- Section: Text -->
+      <section class="mb-4">
+        <p style="color: cyan;">
+            Soil Testing is an agronomically sound, beneficial, and environmentally responsive 
+            tool used for monitoring the nutrient as well as making precise fertilizer recommendations 
+            for various crops and cropping sequences ensuring no damage to the environment. Establishing a soil 
+            testing lab with a Government certification is one of the ideal agriculture business ideas.
+        </p>
+      </section>
+      <!-- Section: Text -->
+  
+      <!-- Section: Links -->
+      <section class="">
+        <!--Grid row-->
+        <div class="row">
+          <!--Grid column-->
+          <div class="col-lg-3 col-md-6 mb-4 mb-md-0">
+            <h5 class="text-uppercase">get to know us</h5>
+  
+            <ul class="list-unstyled mb-0">
+              <li>
+                <a href="#!" class="text-white"></a>
+              </li>
+              <li>
+                <a href="#!" class="text-white">about us</a>
+              </li>
+              <li>
+                <a href="#!" class="text-white">carres</a>
+              </li>
+              <li>
+                <a href="#!" class="text-white">press releases</a>
+              </li>
+            </ul>
+          </div>
+          <!--Grid column-->
+  
+          <!--Grid column-->
+          <div class="col-lg-3 col-md-6 mb-4 mb-md-0">
+            <h5 class="text-uppercase">connect with us</h5>
+  
+            <ul class="list-unstyled mb-0">
+              <li>
+                <a href="#!" class="text-white">facebook</a>
+              </li>
+              <li>
+                <a href="#!" class="text-white">twitter</a>
+              </li>
+              <li>
+                <a href="#!" class="text-white">instagram</a>
+              </li>
+              <li>
+                <a href="#!" class="text-white">you tube</a>
+              </li>
+            </ul>
+          </div>
+          <!--Grid column-->
+  
+          <!--Grid column-->
+          <div class="col-lg-3 col-md-6 mb-4 mb-md-0">
+            <h5 class="text-uppercase">make money with us</h5>
+  
+            <ul class="list-unstyled mb-0">
+              <li>
+                <a href="#!" class="text-white">let us help you</a>
+              </li>
+              <li>
+                <a href="#!" class="text-white">your account</a>
+              </li>
+              <li>
+                <a href="#!" class="text-white">returns center</a>
+              </li>
+              <li>
+                <a href="#!" class="text-white">help</a>
+              </li>
+            </ul>
+          </div>
+          <!--Grid column-->
+  
+          <!--Grid column-->
+          <div class="col-lg-3 col-md-6 mb-4 mb-md-0">
+            <h5 class="text-uppercase"></h5>
+  
+            <ul class="list-unstyled mb-0">
+              <li>
+                <a href="#!" class="text-white">policy</a>
+              </li>
+              <li>
+                <a href="#!" class="text-white">return policy</a>
+              </li>
+              <li>
+                <a href="#!" class="text-white">security</a>
+              </li>
+              <li>
+                <a href="#!" class="text-white">ETR compliance</a>
+              </li>
+            </ul>
+          </div>
+          <!--Grid column-->
+        </div>
+        <!--Grid row-->
+      </section>
+      <!-- Section: Links -->
+    </div>
+    <!-- Grid container -->
+  
+    <!-- Copyright -->
+    <div class="text-center p-3" style="background-color: rgba(0, 0, 0, 0.2);">
+      © 2020 Copyright:
+      <a class="text-white" href="https://mdbootstrap.com/">Fazul</a>
+    </div>
+    <!-- Copyright -->
+  </footer>
+  
+
+
+   <!-- JQuery -->
+   <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+   <!-- Bootstrap tooltips -->
+   <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.4/umd/popper.min.js"></script>
+   <!-- Bootstrap core JavaScript -->
+   <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.5.0/js/bootstrap.min.js"></script>
+   <!-- MDB core JavaScript -->
+   <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/mdbootstrap/4.19.0/js/mdb.min.js"></script>
+   <script>
+       function changed(){
+    let text=document.querySelector('#para');
+    text.innerText=text.innerText+"In order to save farmers, our Government is trying to provide them with various privileges. Recently the government has exempted them from all the loans. Moreover, the government pays an annual pension of Rs. 6000 to them. This helps them to at least have some earning apart from their profession. Furthermore, the government provides quotas.";
+    document.querySelector('#read').style.display='none'; 
+    }
+   </script>
+  
+</body>
+</html>
